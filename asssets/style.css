@@ -1,0 +1,255 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    padding: 5px;
+}
+
+
+    
+
+
+.header-left{
+    font-family:'Sacramento', cursive;
+    color: #00533f;
+    display: flex;
+    justify-content: left;
+    
+}
+
+@media screen and (max-width:780px){
+    span{
+        /* text-align: center;
+        margin-left: 0%; */
+        display: none;
+    }
+    .header-left{
+        text-align: center;
+        margin-left: 0%;
+        display: none;
+
+    }
+}
+
+.header-center > img {
+    height: 50px;
+}
+
+.header-right{
+    align-items: center;
+    padding-right: 10px;
+}
+
+
+.header-right > a {
+    text-decoration: none;
+    color: #00533f;
+    font-size: small;
+}
+
+@media screen  and (max-width:780px){
+    .header-right {
+        justify-content: center;
+        align-items: center;
+    }
+    
+}
+
+.header-right{
+    justify-content: space-between ;
+}
+
+.AT-logo{
+    height: 42px;
+    margin-bottom: 20px;
+    padding-right: -15px;
+}
+.Instagram{
+    padding-right: 5px;
+}
+.carousel-item img{
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    /* 写真のサイズ */
+}
+
+
+.recs{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    width: 80%;
+    margin: 0 auto;
+}
+
+@media screen and (max-width:780px) {
+    .recs{
+        flex-direction: column;
+        width: 90%;
+    }
+    
+}
+
+.title{
+    text-align: center;
+    margin: 80px 0;
+    color: #00533f;
+}
+
+.rec{
+    width: 30%;
+    height: 380px;
+    text-align: left;
+}
+
+@media screen and (max-width:780px) {
+    .rec{
+        width: 100%;
+        height: auto;
+    }
+    
+}
+
+
+.rec > a > img {
+    width: 100%;
+}
+
+.rec-bottom{
+    font-size: 23px;
+    text-align: center;
+    margin-top: 10px;
+}
+.rec a {
+    text-decoration: none;
+    color: #00533f;
+    font-family: 'Sacramento', cursive;
+}
+
+h1{
+    color: #00533f;
+    font-family: 'Sacramento', cursive;
+}   
+.main{
+    background-image: url("./img/店内.jpeg");
+    height: 80vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #00533f;
+}
+
+@media screen and (max-width:780px){
+    .main{
+        height: 110vh;
+    }
+}
+.store{
+    width: 100%;
+    height: 100%;
+    background: rgba(255,255,255,0.5);
+}
+
+.店舗情報{
+    height: 100%;
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+}
+
+
+
+@media screen and (max-width:780px) {
+    .店舗情報{
+        flex-direction: column;
+        text-align: center;
+        margin: auto;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.inf {
+    /* border: 1px black solid;
+    background-color: white;
+    padding: 30px;
+    border-radius: 30px; */
+    font-weight: bolder;
+}
+
+.inf > h3{
+    text-align:left;
+    /* padding-top: 100px;  */
+    /* padding-left: 300px; */
+    font-size: 35px;
+    font-family:'Sacramento', cursive;
+}
+
+.inf > ul{
+    /* padding-left: 330px; */
+    /* padding-top: 50px; */
+    /* 間開けたい */
+    font-size: 20px;
+}
+
+.inf2 h3{
+    font-size: 40px;
+}
+  
+footer{
+    background-color:#00533f;
+    text-align: center;
+}
+
+footer p {
+    color: white;
+    padding: 20px 0;
+    margin: 0;
+}
+
+.top{
+    color: #00533f;
+    font-family: 'Sacramento', cursive;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 60px;
+}
+
+#seasonal img {
+    width: 100%;
+    height: 100%;
+}
+#standard img {
+    width: 100%;
+    height: 100%;
+}
+#set img {
+    width: 100%;
+    height: 100%;
+}
+
+
+/* section{
+    height: 100%;
+    width: 100%;
+} */
+
+@media screen and (max-width:780px){
+    section{
+       height: auto;
+       width: 100%; 
+    }
+}
